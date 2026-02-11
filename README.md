@@ -60,12 +60,12 @@ We are developing a full-stack "Smart Study Planner" that automates the scheduli
 
 ### 5.1 Architecture Diagram
 
-graph TD
-subgraph Client_Side ["Frontend (User's Browser)"]
-UI[Next.js React UI]
-Timer[Study Timer Component]
-Calendar[Calendar Component]
-end
+    graph TD
+        subgraph Client_Side ["Frontend (User's Browser)"]
+            UI[Next.js React UI]
+            Timer[Study Timer Component]
+            Calendar[Calendar Component]
+        end
 
     subgraph Server_Side ["Backend (Next.js API Routes)"]
         Auth[Auth Middleware (JWT)]
